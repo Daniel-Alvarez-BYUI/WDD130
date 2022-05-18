@@ -77,7 +77,6 @@ nav a:hover {
 }
 .msg{
     color: white;
-    background-color: var(--secondary-color);
     background-color: #6f7364;
     line-height: 1.5em;
     padding: 35px;
