@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rock+Salt&display=swap');
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #023047   ;
+    --secondary-color: #820000 ;
+    --accent1-color: #ee8104;
+    --accent2-color: #350040;
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Rock Salt";
+    --paragraph-font: 'Roboto', Helvetica, sans-serif;
+}
+/* *{
+    border: 1px black solid;
+    margin: 3px;
+    padding: 2px;
+} */
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+#grid{
+    background-color: #023047;
+    padding: 35px;
+    margin-top: -5px;
+}
+#grid div{
+    margin: 40px;
+    padding: 10px;
+    border-radius: 25px;
+}
+/* -------------------header---------------- */
+header{
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a{
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 35px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: black;
+}
+.logo{
+    width: 80px;
+}
+#logoLink{
+    padding-top: 25px;
+    justify-self: center;
+    align-self: center;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+/* ---------------------image header---------------- */
+#hero-img{
+    width: 100%;
+    z-index: -1;
+}
+h4{
+    text-shadow: 5px 5px 5px black ;
+    font-family: var(--heading-font);
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.home-title{
+    font-family: var(--heading-font);
+    font-size: 3em;
+    margin-top: 10px;
+    text-shadow: 5px 5px 5px black ;
+}
+/* ------------------- main----------------- */
+/* IDAHO */
+#idaho{
+    display: flex;
+}
+#idaho img{
+    width: 700px;
+    border-radius: 25px ;
+}
+#grid-idaho{
+    background-color: #820000;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+/* UTAH */
+#utah{
+    display: flex;
+}
+#utah img{
+    width: 700px;
+    border-radius: 25px ;
+}
+#grid-utah{
+    background-color: #820000;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+/* ARIZONA */
+#arizona{
+    display: flex;
+    border-radius: 25px ;
+}
+#arizona img{
+    width: 700px;
+    border-radius: 25px ;
+}
+#grid-arizona{
+    background-color: #820000;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+/* REST OF CODE */
+p{
+    font-family: var(--paragraph-font);
+    padding: 10px;
+    margin: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 25px;
+}
+body{
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+/* ---------------footer------------- */
+footer{
+    background-color: var(--secondary-color);
+    color: white;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-top: 200px;
+
+}
+footer .social img{
+    padding-top: 15px;
+}
+h3 {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25.74px;
+}
+#button-f{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px black solid;
+    font-family: var(--heading-font);
+    color: white;
+    background-color: var(--accent2-color);
+    letter-spacing: 10px;
+    padding: 10px;
+    transition: transform .5s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
