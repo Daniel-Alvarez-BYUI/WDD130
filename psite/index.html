@@ -6,65 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="shortcut icon" href="images/logo_azul.png" type="image/x-icon">
-    <style>
-        #imgprincipal img{
-            width: 600px;
-        }
-        #logolink img{
-            width: 300px;
-        }
-        section img{
-            width:600px ;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/style_index.css">
+
 </head>
 <body>
-    <div id="content">
-        <header>
-            <a href="index.html" id="logolink">
-                <img src="images/WebWorld-logos_transparent.png" alt="Logo of webworld">
-            </a>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="contactus.html">CONTACT US</a>
-                <a href="site-plan.html">SITE PLAN</a>
-            </nav>
-        </header>
-        <div id="imgprincipal">
-            <img src="images/landing2.jpg" alt="people working">
-            <img src="images/landing1.jpg" alt="">
-            <img src="images/landing3.jpg" alt="">
+    <header class="header" id="header-1">
+        <div class="logo">
+            <img src="images/WebWorld-logos_white.png" alt="logp">
+
         </div>
-        <main>
-            <section>
-                <h2>Our services</h2>
-                <div><img src="images/programer.jpg" alt="programers"> </div>
-                <div><img src="images/programs.jpg" alt="programs"> </div>
-                <div><img src="images/startup.jpg" alt="startup"> </div>
-                <div><img src="images/landingpage.jpg" alt="landinpage"> </div>
-            </section>
-            <section>
-                <div> <img src="images/world.jpg" alt="world"></div>
-                <p>We can create the entire world</p>
-            </section>
-        </main>
-        <footer>
-            <h3>Web World &copy; 2022 - Daniel Alvarez</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Site Plan</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn"><button>Contact Us</button></a>
+    </header>
+
+    <section id="hero">
+        <h1>Web World <br>We can create the entire world</h1>
+    </section>
+
+    <section class="gallery">
+        <h2>Our Services</h2>
+        <div class="gallery-grid">
+            <div class="item1"> <h2>Programers</h2></div>
+            <div class="item2"> <h2>programs</h2></div>
+            <div class="item3"> <h2>start ups</h2></div>
+            <div class="item4"><h2>Landing pages</h2></div>
+        </div>
+        <a href="#" class="btn"><button>+ INFO</button></a>
+    </section>
+
+    <section class="fixed">
+        <h3>We can create the entire world</h3>
+    </section>
+
+    <footer class="footer">
+        <div class="group1">
+            <div class="box">
+                <a href="index.html"><img src="images/WebWorld-logos_white.png" alt="" width="200px"></a>
             </div>
-        </footer>
-    </div>
+            <div class="box">
+                <h3>&copy;Daniel Alejandro Alvarez Zuñiga </h3>
+            </div>
+            <div class="box">
+                <div class="social">
+                    <a href=""><img src="images/facebook.png" alt=""></a>
+                    <a href=""><img src="images/twitter.png" alt=""></a>
+                    <a href=""><img src="images/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
