@@ -1,82 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts us</title>
     <link rel="shortcut icon" href="images/logo_azul.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/contactus.css">
     <style>
-        main img{
+        main img {
             width: 700px;
         }
-        #logolink img{
+
+        #logolink img {
             width: 300px;
         }
     </style>
 </head>
+
 <body>
-    <div id="content">
-        <header>
-            <a href="index.html" id="logolink">
-                <img src="images/WebWorld-logos_transparent.png" alt="Logo of webworld">
-            </a>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="contactus.html">CONTACT US</a>
-                <a href="site-plan.html">SITE PLAN</a>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <img src="images/contact3.jpg" alt="">
-            </section>
-            <section>
-                <div>
-                    <p></p>
-                </div>
-                <div>
-                    <p></p>
-                </div>
-                <div>
-                    <form action="">
-                        <label for="">Name</label>
-                        <input type="text">
-                        <label for="">Last Name</label>
-                        <input type="text">
-                        <label for="">Age</label>
-                        <input type="text">
-                        <label for="">bussines</label>
-                        <input type="text">
-                        <label for="">email</label>
-                        <input type="text">
-                        <label for="">Color of the logo</label>
-                        <input type="text">
-                        <label for="">What do you expect</label>
-                        <input type="text">
-                        
-                    </form>
-                </div>
-                <div><button>Submit</button></div>
-            </section>
-        </main>
-        <footer>
-            <h3>Web World &copy; 2022 - Daniel Alvarez</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
+    <header class="header" id="header-1">
+        <div class="logo">
+            <a href="index.html"><img src="images/WebWorld-logos_white.png" alt="logp"></a>
+
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="site-plan.html">Site Plan</a></li>
+            </ul>
+        </nav>
+        <a href="contactus.html" class="btn"><button>Contact Us</button></a>
+    </header>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>contact Us</h1>
+        </div>
     </div>
+    <section>
+        <div class="c1">
+            <img src="images/WebWorld-logos_white.png" alt="">
+        </div>
+        <div class="c2">
+            <i><p>Good art inspired <br> Good design motivates</p></i> 
+        </div>
+        <div class="c3">
+            <form action="">
+                <input type="text" class="field" placeholder="Name">
+                <input type="text" class="field" placeholder="Last Name">
+                <input type="text" class="field" placeholder="Age">
+                <input type="text" class="field" placeholder="Bussines">
+                <input type="text" class="field" placeholder="Email">
+                <input type="text" class="field" placeholder="Color of the Logo">
+                <textarea  class="field area" placeholder="What do you expect ?"></textarea>
+                <button class="btn2">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="group1">
+            <div class="box">
+                <a href="index.html"><img src="images/WebWorld-logos_white.png" width="200px"></a>
+            </div>
+            <div class="box">
+                <h3>&copy;Daniel Alejandro Alvarez Zuñiga </h3>
+            </div>
+            <div class="box">
+                <div class="social">
+                    <a href="#"><img src="images/facebook.png" alt=""></a>
+                    <a href="#"><img src="images/twitter.png" alt=""></a>
+                    <a href="#"><img src="images/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

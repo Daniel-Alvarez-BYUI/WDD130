@@ -127,12 +127,12 @@ h2{
     grid-template-columns: repeat(3, 1fr);
     background-size: cover;
     width: 55%;
-    justify-content: center;
     height: 750px;
     margin: auto;
     margin-top: 10px;
     border-radius: 25px;
     justify-items: center;
+    justify-content: center;
 
 }
 .item1{
